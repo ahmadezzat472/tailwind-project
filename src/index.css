@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {      /* import components to use layer  */
+    .container {
+        @apply mx-auto px-[30px]
+    }
+
+    .ele-center {
+        @apply flex justify-center items-center
+    }
+
+    .ele-section {
+        @apply py-[100px]
+    }
+
+    .btn {
+        @apply bg-[#42b0d1] hover:bg-[#8cdae4] duration-200
+    }
+    
+}
+
+body {
+    background-color: #181e2a;
+}
