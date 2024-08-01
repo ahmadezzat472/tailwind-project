@@ -29,7 +29,7 @@ function Footer() {
                 <div>
                     <a href="/">
                         <img 
-                            src="/src/assets/images/logo.svg"
+                            src="src/assets/images/logo.svg"
                             alt="logo-img"
                         />
                     </a>
@@ -38,7 +38,7 @@ function Footer() {
                 <div className="text-white flex flex-col md:flex-row justify-between flex-wrap gap-[30px] mt-[30px] ">
                     <div className="flex items-start gap-5 w-[340px] max-w-full">
                         <img
-                            src="/src/assets/images/icon-location.svg"
+                            src="src/assets/images/icon-location.svg"
                             alt="location-img"
                             className="w-[18px] h-[18px] object-contain"
                         />
@@ -56,7 +56,7 @@ function Footer() {
                                 className="flex items-center gap-[15px] mb-[15px] last-of-type:mb-0"
                             >
                                 <img
-                                    src={`/src/assets/images/${ele.icon}`}
+                                    src={`src/assets/images/${ele.icon}`}
                                     alt="icon"
                                     className="w-[18px] h-[18px] object-contain"
                                 />
