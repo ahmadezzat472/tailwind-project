@@ -1,9 +1,8 @@
 /* eslint-disable no-unused-vars */
 import { useState } from "react";
 import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
-import logoImg from "src/assets/images/logo.svg"
-import icon_location from "src/assets/images/icon-location.svg"
-import icon from "src/assets/images"
+import logoImg from "/src/assets/images/logo.svg"
+import icon_location from "/src/assets/images/icon-location.svg"
 
 function Footer() {
     const [contact, setContact] = useState([
@@ -59,7 +58,7 @@ function Footer() {
                                 className="flex items-center gap-[15px] mb-[15px] last-of-type:mb-0"
                             >
                                 <img
-                                    src={`${icon}/${ele.icon}`}
+                                    src={`/src/assets/images/${ele.icon}`}
                                     alt="icon"
                                     className="w-[18px] h-[18px] object-contain"
                                 />

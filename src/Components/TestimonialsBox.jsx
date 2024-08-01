@@ -1,5 +1,4 @@
 /* eslint-disable react/prop-types */
-import image from "/src/assets/images"
 
 function TestimonialsBox(props) {
     return (
@@ -7,7 +6,7 @@ function TestimonialsBox(props) {
             <p className="text-sm font-normal tracking-[0.8px]">{props.desc}</p>
             <div className="flex items-center gap-5 mt-5">
                 <img 
-                    src={`${image}/${props.image}`} 
+                    src={`/src/assets/images/${props.image}`} 
                     alt="" 
                     className="w-[50px] h-[50px] rounded-full object-contain"
                 />
