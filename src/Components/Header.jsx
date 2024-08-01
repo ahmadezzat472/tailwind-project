@@ -1,4 +1,6 @@
+/* eslint-disable no-unused-vars */
 import { useEffect, useRef, useState } from "react";
+import logo from "/src/assets/images/logo.svg"
 
 function Header() {
     const [links, setLinks] = useState(["features", "team", "signin"]);
@@ -23,7 +25,7 @@ function Header() {
         >
             <div className="container flex flex-col sm:flex-row justify-between items-center gap-[30px] sm:gap-0">
                 <a href="/">
-                    <img src="src/assets/images/logo.svg" alt="" />
+                    <img src={logo} alt="logo image" />
                 </a>
                 <ul className="flex gap-[35px]">
                     {links.map( (ele) => 
