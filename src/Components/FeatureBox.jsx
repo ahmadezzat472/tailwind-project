@@ -1,9 +1,11 @@
 /* eslint-disable react/prop-types */
+import imageIcon from "/src/assets/images"
+
 function FeatureBox({icon, title, desc}) {
     console.log(icon);
     return (
         <div className="text-white text-center ele-center flex-col">
-            <img src={`/src/assets/images/${icon}`}
+            <img src={`${imageIcon}/${icon}`}
                 alt="icon-image"
                 className=""
             />

@@ -1,3 +1,5 @@
+import LandingImg from "/src/assets/images/landing-img.png"
+import svgImg from "/src/assets/images/bg-curvy-desktop.svg" 
 
 function Landing() {
     return (
@@ -6,7 +8,7 @@ function Landing() {
                 <div className="ele-center flex-col">
                     <div className="w-[750px] max-w-full">
                         <img 
-                            src="src\assets\images\landing-img.png"
+                            src={LandingImg}
                             className="w-full"
                         />
                     </div>
@@ -30,7 +32,7 @@ function Landing() {
             </div>
             <div className="w-full h-[200px]">
                 <img 
-                    src="/src/assets/images/bg-curvy-desktop.svg" 
+                    src={svgImg}
                     alt="" 
                     className="w-full h-full"
                 />
